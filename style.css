@@ -463,6 +463,10 @@ a.portfolio__data-link{
         margin-left: auto;
         margin-right: auto;
     }
+    .nav.container{
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 
     .title:after, .title:before {
