@@ -263,6 +263,12 @@ a.page__title{
 
     padding: 3rem 0;
  }
+ .portfolio__bkg-mobile img{
+     max-width: 30%;
+     display: block;
+     margin: auto;
+     /* background-color:var(--color1); */
+ }
 
  .portfolio__date,
  .portfolio__data,
@@ -296,7 +302,9 @@ a.page__title{
    
 }
 .portfolio__icon{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
+    color: var(--color4);
+
 }
 
 
@@ -308,12 +316,13 @@ a.page__title{
    background-color:var(--color1);
 }
 
-.portfolio__button{
+/* .portfolio__button{
     padding: .75rem 1rem;
     background-color: transparent;
     color: var(--color4);
     font-size: 1.5rem;
-}
+    border: ;
+} */
 
 .portfolio__data-plus{
     text-align: left;
