@@ -1,0 +1,455 @@
+
+/*-------------------------DEBUT CSS GENERAL --------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@500;600;700&display=swap');
+
+/*-------------------------DEBUT CSS GENERALE----------------------------------*/
+:root{
+    --header-height:3rem;
+
+/*----COLOR---------------------------------*/
+--color0:#fff;
+--color1:#eeecec;
+--color2:#d4d4d4;
+--color3:#adadad;
+--color4:#000;
+
+
+
+
+/*----FONT AND TYPOGRAPHY----------------------------------*/
+--body-font:'Open Sans', sans-serif;
+--title-font:'Raleway', sans-serif;
+
+--big-font-size:2rem;
+--h1-font-size:1.5rem;
+--h2-font-size:1.25rem;
+--h3-font-size:1.125rem;
+--normal-font-size:.938rem;
+--small-font-size:.813rem;
+--smaller-font-size:.75rem;
+
+
+/*----FONT WEIGHT-----------------------------------------------*/
+--font-light:300;
+--font-medium:500;
+--font-semi-bold:600;
+
+
+ /*----MARGENES BOTTOM----------------*/
+/*----.25rem = 4px, .5rem = 8px, /75rem = 12px ...----*/
+ --mb-0-25:.25rem;
+ --mb-0-5:.5rem;
+ --mb-0-75:.75rem;
+ --mb-1:1rem;
+ --mb-1-5:1.5rem;
+ --mb-2:2rem;
+ --mb-2-5:2.5rem;
+ --mb-3: 3rem;
+
+
+
+ /*Z-INDEX----------------------------------------------------------*/
+ --z-tooltip:10;
+ --z-fixed:100;
+ --z-modal:1000;
+
+
+  /*----HOVER OVERLAY --------------------------------------------------*/
+ --img-hidden: hidden;
+ --img-scale:scale(1.1)
+}
+
+
+
+
+
+
+ /*FONT SIZE FOR LARGE DEVICES : > 968px*/
+ @media screen and (min-width:968px){ 
+    :root{
+        --big-font-size:3rem;
+        --h1-font-size:2.25rem;
+        --h2-font-size:1.5rem;
+        --h3-font-size:1.25rem;
+        --normal-font-size:1rem;
+        --small-font-size:.875rem;
+        --smaller-font-size:.813rem;
+    }
+}
+
+
+ /*---- DEBUT BASE - RESET HTML --------------------------*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    margin:0 0 var(--header-height) 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    color:var(--color4);
+    font-weight: var(--font-light);
+}
+
+/* h1{
+    font-size: var(--h1-font-size);
+}
+h2{
+    font-size: var(--h2-font-size);
+} */
+
+
+h1,h2,h3,h4{
+    color:var(--color4);
+    font-weight: var(--font-semi-bold);
+    font-family: var(--title-font);
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+input,
+button
+{
+    border: none;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+button{
+    cursor: pointer;
+}
+
+input{
+    outline:none;
+}
+ /*---- FIN BASE - RESET HTML --------------------------*/
+
+
+
+
+  /*------------------DEBUT REUSABLE CLASS--------------------------*/
+  .section{
+    padding:4.5rem 0 2.5rem;
+}
+
+.section__title{
+    font-size: var(--h2-font-size);
+    margin-bottom: var( --mb-1);
+}
+
+.section__subtitle{
+    display: block;
+    font-size: var(--small-font-size);
+    margin-top: var(--mb-0-25);
+    margin-bottom: var(--mb-3);
+    color:var(--color3);
+}
+
+.section__title,
+.section__subtitle{
+    text-align: center;
+}
+
+
+/*LAYOUT----------------------------------------------------------------*/
+.container{
+    max-width: 1000px;
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+}
+
+.grid{
+    display: grid;
+    gap: 1.5rem;
+}
+
+
+/*------------BUTTONS--*/
+.button{
+    display: inline-block;
+    /* background-color:var(--color4); */
+    color: var(--color4);
+    padding: .6rem 2rem;
+    font-weight: var(--font-light);
+    font-size: var(--small-font-size);
+    transition: .3s;
+    border: 1px solid black;
+
+}
+
+.button:hover{
+    background-color: var(--color4);
+    color: var(--color0);
+}
+
+.button--flex{
+    display: inline-flex;
+    align-items: center;
+}
+
+  /*------------------FIN REUSABLE CLASS--------------------------*/
+
+ /*------------------DEBUT HEADER--------------------------*/
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:var(--z-fixed);
+    background-color:var(--color0);
+    text-align: center;
+    border-bottom: 1px solid var(--color1);
+    padding: 1.2rem 0;
+}
+
+
+
+ /*------------------FIN HEADER--------------------------*/
+    section.portfolio{
+        padding-top: 7rem;  
+    }
+
+ .portfolio__bkg img{
+    /* background-color: var(--color1); */
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 3rem 0;
+ }
+
+ .portfolio__date,
+ .portfolio__data,
+ .portfolio__bkg,
+.portfolio__data-plus,
+.portfolio__button{
+    background-color: var(--color1);
+    padding: .7rem 1.3rem;
+}
+
+
+.portfolio__date{
+    font-family: var(--title-font);
+}
+
+.portfolio__subtitle{
+    font-size: var(--smaller-font-size);
+    margin-bottom: var(--mb-1-5),
+}
+.portfolio__title{
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.portfolio__button{
+    background-color: var(--color1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+   
+}
+.portfolio__icon{
+    font-size: 1.8rem;
+}
+
+
+.portfolio__data-contenair.grid{
+    grid-template-columns: 5fr 1fr;
+    gap: 0rem;
+}
+.portfolio__data-contenair{
+   background-color:var(--color1);
+}
+
+.portfolio__button{
+    padding: .75rem 1rem;
+    background-color: transparent;
+    color: var(--color4);
+    font-size: 1.5rem;
+}
+
+.portfolio__data-plus{
+    text-align: left;
+    /* padding-top:2rem; */
+}
+
+.portfolio__data{
+    padding-bottom:0;
+}
+a.portfolio__data-link{
+    color: var(--color4);
+}
+
+
+
+
+
+
+/*======== DEBUT ACOORDEON==============================================*/
+
+
+
+
+.accordion {
+    /* margin: 3em auto; */
+    margin: auto;
+    /* max-width: 30em; */
+  }
+  
+  .toggle {
+    display: none;
+  }
+  
+  .option {
+    position: relative;
+    margin-bottom: 1em;
+  }
+  
+  .title,
+  .content {
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: all 0.2s;
+  }
+  
+  .title {
+    /* background: #fff; */
+    padding: 1em 0;
+    display: block;
+    /* color:  #7A7572; */
+    color: var(--color4);
+    font-weight: bold;
+    font-family: var(--title-font)
+  }
+  .title:after, .title:before {
+    content: '';
+    position: absolute;
+    right: .5em;
+    top: 1.25em;
+    width: 2px;
+    height: 1.1em;
+    /* background-color:  #7A7572; */
+    background-color:var(--color4);
+    transition: all 0.2s;
+  }
+  .title:after {
+    transform: rotate(90deg);
+  }
+  .content {
+    max-height: 0;
+    overflow: hidden;
+    /* background-color: #fff; */
+    padding: 0rem 1rem;
+}
+/* .content p {
+    margin: 0;
+    padding: 0.5em 1em 1em;
+    font-size: 0.9em;
+    line-height: 1.5;
+} */
+
+  
+ 
+/* .toggle:checked + .title, .toggle:checked + .title + .content {
+    box-shadow: 3px 3px 6px #ddd, -3px 3px 6px #ddd;
+} */
+.toggle:checked + .title + .content {
+    max-height: 1300px;
+}
+.toggle:checked + .title:before {
+    transform: rotate(90deg) !important;
+}
+
+/*======== DEBUT ACOORDEON==============================================*/
+
+
+
+
+
+
+
+
+
+
+
+/*======== DEBUT MEDIA QUERRY==============================================*/
+/*FOR SMALL DEVICES taille s*/
+
+@media screen and (max-width:350px){
+
+    .container{
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
+    }
+
+}
+
+
+
+@media screen and (min-width:768px){
+
+    .portfolio__container{
+        grid-template-columns: repeat(2, 1fr) ;
+        justify-content: center;
+     }
+
+     .portfolio__container.grid{
+        gap: 3rem;
+     }
+
+     .portfolio__img-container{
+         width: 60%;
+     }
+
+     .title:after, .title:before {
+        right: .6rem;
+    }
+   
+
+}
+
+
+
+@media screen and (min-width:1024px){
+
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .title:after, .title:before {
+        right: 1rem;
+    }
+   
+
+}
+
+/*======== FIN MEDIA QUERRY==============================================*/
+
+
