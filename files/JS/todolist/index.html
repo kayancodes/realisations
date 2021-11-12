@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>To Do List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- pour pouvoir utiliser les media query  -->
+    <meta name="viewport" content="width=device-width, user-scalable=no"> <!-- pour empecher l'effet de zoom lorsqu'on commence à écrire  -->
+
+    <style> 
+      /* DEBUT PARTIE CSS */
+          *{
+            outline: 0;
+            margin :0;
+            padding: 0;
+          }
+
+          .inner{
+            padding: 0;
+            margin-top: 30vh;
+          }
+          
+          .box_area{
+            border: 1px solid gray;
+            width:85%;
+            min-height:15rem;
+            display: block;
+            margin: 0 auto;
+          }
+
+
+          .zoneText{
+            widows: 90% auto;
+            margin:0 auto;
+            display: block;
+            text-align: center;
+          }
+
+
+          button{
+            width:13%;
+            height: 2.1rem;
+            border: 1px solid gray;
+            background-color: #fff;
+            margin-right: 0px;
+          }
+
+          input.checkbox{
+            width: 65%;
+            height: 1.9rem;
+            margin-right: 0px;
+            margin-top: 2%;
+            border: 1px solid gray;
+            padding-left: 2%;
+            
+          }
+
+          input{
+            margin-right: 10px;
+          }
+
+
+          ul{
+            width: 20%;
+            display: block;
+            margin: 1rem 0 0 2rem;
+          }
+
+          li{
+            width: 10rem;
+            margin-bottom: 1rem;
+            list-style-type: none;
+          }
+
+         
+          
+
+    @media screen and (min-width:768px) and (max-width:1023px){
+          .box_area{
+            width:30rem;
+            
+          }
+
+          button{
+            width:11%;
+          }
+    }
+
+    @media screen and (min-width:1024px){
+          .box_area{
+            width:40rem;
+           
+          }
+
+          button{
+            width:11%;
+          }
+    }
+    /* FIN PARTIE CSS */
+    </style>
+  </head>
+
+
+
+
+
+  <body>
+<!-- DEBUT PARTIE HTML -->
+<div class="inner">
+
+  <div class="box_area">
+      <div class="zoneText">
+      <input type="text" class="checkbox" />
+      <button id="ajouter">+</button>
+      <button id="supprimer">-</button>
+    </div>
+
+      <ul></ul>
+  </div>
+
+</div>
+<!-- FIN PARTIE HTML -->
+
+
+  <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

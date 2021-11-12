@@ -1,0 +1,605 @@
+
+/* ------------ DEBUT BASE -----------------------*/
+    *{
+    box-sizing: border-box;
+    }
+
+
+
+    body{
+    font-family: arial;
+    font-size: 14px;
+    padding:20px;
+    margin:0; 
+    }
+/* ------------ FIN BASE -----------------------*/
+
+
+
+
+
+@media screen and (min-width:960px){
+    
+    
+    
+/* ---------- DEBUT MULTI ------------------------*/
+    h3, p {
+	margin: 0;
+    }
+    
+
+    .howto, .responsive, .profiles{ /*Les 3 parties de la boite verte*/
+    padding-bottom:20px;
+    }
+ /* ---------- FIN MULTI ------------------------*/   
+    
+    
+    
+    
+    
+/* --------- DEBUT BOITE ROUGE ---------------------*/
+    header{
+    border:1px solid #800;
+    background-color: #edd;
+        
+    padding: 0 20px;
+    margin-bottom: 20px;
+      
+    }
+    
+/* --------- FIN BOITE ROUGE ---------------------*/ 
+    
+    
+    
+    
+    
+/* --------- DEBUT BOITE JAUNE ---------------------*/
+    .conteneur1 {
+    width:18%;
+    float:left;
+    border: 1px solid #880;
+    
+    background-color:  #eed;
+        
+    padding:10px; 
+    margin-right: 20px; 
+    }
+    
+    
+    nav{
+    margin:0px 0px; 
+    }
+    
+    
+    ul{
+    margin-left:0;
+    }
+    
+    
+    li{
+    list-style:none;
+    }    
+    
+    a {
+    text-decoration:none;
+       
+    }
+    
+    a:hover {
+    text-decoration: underline;
+}
+/* --------- FIN BOITE JAUNE ---------------------*/    
+    
+    
+    
+    
+    
+/* --------- DEBUT CONTENEUR BOITE VERTE + BLEUE --------------- */
+    .conteneur2{
+    display:flex;
+    flex-direction: row;
+    }
+    
+    
+    .grey{
+    color:#888;
+    font-size: 11px;
+    }
+/* --------- FIN CONTENEUR BOITE VERTE + BLEUE --------------- */
+    
+    
+    
+    
+    
+/* --------- DEBUT BOITE VERTE ---------------------*/
+    article{
+    width:80%;
+    border: 1px solid #080;
+        
+    background-color: #ded; 
+        
+    margin-right: 20px;
+    padding: 20px 20px 10Px 20px;
+    }
+
+    
+    hr{    
+    height:1px;
+    border-color: #ded;
+    }
+    
+    
+    #layout{
+    width:100%;
+    max-width: 14%;
+        
+    float:left;
+    clear: left;
+        
+    margin:2px 15px 15px 0px;      
+    }
+    
+    #layout2, #layout3{ 
+    display: none; /* pour cacher ces images qui ne corespondent pas à la taille d'ecran affichée*/
+    }
+    
+    .profiles{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    }
+    
+    
+    .inconnu{
+    width:20%;
+        
+    float:left;
+    clear: left;
+        
+    margin-right:20px;
+    margin-top:5px;
+    }
+ /* --------- FIN BOITE VERTE ---------------------*/   
+
+    
+    
+
+    
+/* --------- DEBUT BOITE BLEU ---------------------*/
+    
+    .asidebox{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    }
+    
+    
+    aside{
+    width:100%;
+    max-width: 22%;
+    height:100%;
+    max-height:700px;
+        
+    background-color: #dee;
+        
+    border: 1px solid #088;
+    padding: 1px 20px;
+    background-size: cover;
+ 
+    }
+    
+    
+    .asidet{
+    padding-bottom: 10px;
+    padding-top: 13px;
+    }
+/* --------- FIN BOITE BLEU ---------------------*/
+    
+    
+    
+    
+    
+    
+/* --------- DEBUT BOITE VIOLETTE ----------------*/
+    footer{
+    background-color: #dde;
+    border: 1px solid #008;
+        
+    padding:1px 20px;
+    margin-top: 20px;
+    }
+
+    footer p{
+    margin:20px;
+    }
+/* --------- FIN BOITE VIOLETTE ----------------*/
+    
+}
+    
+
+@media screen and (min-width:720px) and (max-width:959px){
+/* ---------- DEBUT MULTI ------------------------*/
+    h3, p {
+	margin: 0;
+    }
+    
+
+    .howto, .responsive, .profiles{ /*Les 3 parties de la boite verte*/
+    padding-bottom:20px;
+    }
+ /* ---------- FIN MULTI ------------------------*/   
+    
+    
+    
+    
+    
+/* --------- DEBUT BOITE ROUGE ---------------------*/
+    header{
+    border:1px solid #800;
+    background-color: #edd;
+        
+    padding: 0 20px;
+    margin-bottom: 20px;
+      
+    }
+    
+/* --------- FIN BOITE ROUGE ---------------------*/ 
+    
+    
+    
+    
+    
+/* --------- DEBUT BOITE JAUNE ---------------------*/
+    .conteneur1 {
+    width:100%;
+    max-width:25%;
+    float:left;
+    border: 1px solid #880;
+    
+    background-color:  #eed;
+        
+    padding:10px; 
+    margin-right: 20px; 
+    }
+    
+    
+    nav{
+    margin:0px 0px; 
+    }
+    
+    
+    ul{
+    margin-left:0;
+    }
+    
+    
+    li{
+    list-style:none;
+    }    
+    
+    a {
+    text-decoration:none;
+       
+    }
+    
+    a:hover {
+    text-decoration: underline;
+}
+/* --------- FIN BOITE JAUNE ---------------------*/    
+    
+    
+    
+    
+    
+/* --------- DEBUT CONTENEUR BOITE VERTE + BLEUE --------------- */
+    .conteneur2{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+        flex:1;
+    }
+    
+    
+    .grey{
+    color:#888;
+    font-size: 11px;
+    }
+/* --------- FIN CONTENEUR BOITE VERTE + BLEUE --------------- */
+    
+    
+    
+    
+    
+/* --------- DEBUT BOITE VERTE ---------------------*/
+    article{
+    width:100%;
+    border: 1px solid #080;
+        
+    background-color: #ded; 
+    
+    margin-bottom: 20px;
+    margin-right: 0px;
+    padding: 20px 20px 10Px 20px;
+    }
+
+    
+    hr{    
+    height:1px;
+    border-color: #ded;
+    }
+    
+    
+    #layout2{
+    width:100%;
+    max-width: 14%;
+        
+    float:left;
+    clear: left;
+        
+    margin:2px 15px 15px 0px;      
+    }
+    
+    #layout, #layout3{ 
+    display: none; /* pour cacher ces images qui ne corespondent pas à la taille d'ecran affichée*/
+    }
+    
+    
+    .profiles{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    }
+    
+    
+    .inconnu{
+    width:20%;
+        
+    float:left;
+    clear: left;
+        
+    margin-right:20px;
+    margin-top:5px;
+    }
+ /* --------- FIN BOITE VERTE ---------------------*/   
+
+    
+    
+
+    
+/* --------- DEBUT BOITE BLEU ---------------------*/
+    
+    .asidebox{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    }
+    
+    
+    aside{
+    width:100%;
+        
+    background-color: #dee;
+        
+    border: 1px solid #088;
+    padding: 1px 20px;
+    background-size: cover;
+ 
+    }
+    
+    
+    .asidet{
+    padding-bottom: 10px;
+    padding-top: 13px;
+    }
+/* --------- FIN BOITE BLEU ---------------------*/
+    
+    
+    
+    
+    
+    
+/* --------- DEBUT BOITE VIOLETTE ----------------*/
+    footer{
+    background-color: #dde;
+    border: 1px solid #008;
+        
+    padding:1px 20px;
+    margin-top: 20px;
+    }
+
+    footer p{
+    margin:20px;
+    }
+/* --------- FIN BOITE VIOLETTE ----------------*/
+}
+
+
+@media screen and (max-width:719px){
+    
+/* ---------- DEBUT MULTI ------------------------*/
+    h3, p {
+	margin: 0;
+    }
+    
+
+    .howto, .responsive, .profiles{ /*Les 3 parties de la boite verte*/
+    padding-bottom:20px;
+    }
+ /* ---------- FIN MULTI ------------------------*/   
+    
+    
+    
+    
+    
+/* --------- DEBUT BOITE ROUGE ---------------------*/
+    header{
+    border:1px solid #800;
+    background-color: #edd;
+        
+    padding: 0 20px;
+    margin-bottom: 20px;
+      
+    }
+    
+/* --------- FIN BOITE ROUGE ---------------------*/ 
+    
+    
+    
+    
+    
+/* --------- DEBUT BOITE JAUNE ---------------------*/
+    .conteneur1 {
+    width:100%;
+    max-width:;
+    /* J'ai retiré le FLOAT, comme ca la boite jaune passe en position static par defaut et se place naturellmeent au dessus du .conteneur2*/
+    border: 1px solid #880;
+    
+    background-color:  #eed;
+        
+    padding:10px; 
+    margin:20px 0; 
+    }
+    
+    
+    nav{
+    margin:0px 0px; 
+    }
+    
+    
+    ul{
+    margin-left:0;
+    }
+    
+    
+    li{
+    list-style:none;
+    }    
+    
+    a {
+    text-decoration:none;
+       
+    }
+    
+    a:hover {
+    text-decoration: underline;
+}
+/* --------- FIN BOITE JAUNE ---------------------*/    
+    
+    
+    
+    
+    
+/* --------- DEBUT CONTENEUR BOITE VERTE + BLEUE --------------- */
+    .conteneur2{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+    
+    
+    .grey{
+    color:#888;
+    font-size: 11px;
+    }
+/* --------- FIN CONTENEUR BOITE VERTE + BLEUE --------------- */
+    
+    
+    
+    
+    
+/* --------- DEBUT BOITE VERTE ---------------------*/
+    article{
+    width:100%;
+    border: 1px solid #080;
+        
+    background-color: #ded; 
+    
+    margin-bottom: 20px;
+    margin-right: 0px;
+    padding: 20px 20px 10Px 20px;
+    }
+
+    
+    hr{    
+    height:1px;
+    border-color: #ded;
+    }
+    
+    
+    #layout3{
+    width:100%;
+    max-width: 14%;
+        
+    float:left;
+    clear: left;
+        
+    margin:2px 15px 15px 0px;      
+    }
+    
+    #layout, #layout2{ 
+    display: none; /* pour cacher ces images qui ne corespondent pas à la taille d'ecran affichée*/
+    }
+    
+    
+    .profiles{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    }
+    
+    
+    .inconnu{
+    width:20%;
+        
+    float:left;
+    clear: left;
+        
+    margin-right:20px;
+    margin-top:5px;
+    }
+ /* --------- FIN BOITE VERTE ---------------------*/   
+
+    
+    
+
+    
+/* --------- DEBUT BOITE BLEU ---------------------*/
+    
+    .asidebox{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    }
+    
+    
+    aside{
+    width:100%;
+   
+    background-color: #dee;
+        
+    border: 1px solid #088;
+    padding: 1px 20px;
+    background-size: cover;
+ 
+    }
+    
+    
+    .asidet{
+    padding-bottom: 10px;
+    padding-top: 13px;
+    }
+/* --------- FIN BOITE BLEU ---------------------*/
+    
+    
+    
+    
+    
+    
+/* --------- DEBUT BOITE VIOLETTE ----------------*/
+    footer{
+    background-color: #dde;
+    border: 1px solid #008;
+        
+    padding:1px 20px;
+    margin-top: 20px;
+    }
+
+    footer p{
+    margin:20px;
+    }
+    
+}

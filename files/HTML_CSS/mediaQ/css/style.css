@@ -1,0 +1,1058 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+/*------ DEBUT VERSION ORDI ------------------*/
+@media screen and (min-width:960px) {
+    
+    
+/*-----------------------------DEBUT HEADER----------------------------------------------------*/
+    
+/*-------------------DEBUT LOGO--------------------------------------------*/
+.fa{
+    visibility: hidden;
+}
+
+hr{
+    margin-top:-4px;
+}
+
+header{
+    width:100%;
+    background: url(../images/texture_nav.gif) repeat-x;
+    height:49px;
+}
+
+h3.logo{
+    line-height:49px;
+    float:left;
+    margin-right:67%;
+}
+
+
+div.head{
+    width:960px;
+    height:49px;
+    margin: auto;
+    padding-left: 50px;
+}    
+/*-------------------FIN LOGO--------------------------------------------*/
+
+    
+    
+/*-------------------DEBUT NAVIGATION------------------------------------*/   
+nav{
+    width:240px;
+    height:49px;
+    float:left;
+}
+
+nav ul li {
+    text-align: center;
+    list-style: none;
+    display: block;
+    float:left;
+    width:60px;
+    height:49px;
+    line-height: 49px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:gray;
+}
+/*-------------------FIN NAVIGATION------------------------------------*/ 
+/*-----------------------------DEBUT HEADER----------------------------------------------------*/
+    
+    
+    
+    
+    
+/*-----------------------------DEBUT SLIDER-----------------------------------------------------*/
+div.slider{
+    height:344px;
+    background: url(../images/equipebon.jpg) 0 0 no-repeat;
+    background-size: cover;
+    min-width:100%;
+    max-width:100%;
+}
+    
+div.sslider{
+    width:100%;
+    height:100px;
+    background: url(../images/vert.gif) repeat-x;
+}
+
+  
+h1, h2{
+    text-align: center;
+    color:white;
+}
+/*-----------------------------FIN SLIDER-----------------------------------------------------*/    
+    
+    
+    
+    
+    
+    
+/*-----------------------------DEBUT MAIN-----------------------------------------------------*/      
+main{
+    width:960px;
+    margin:auto;
+}
+
+    
+/*----------------------DEBUT SECTION GAUCHE ET DROITE -----------------*/
+section.gauche{
+    height:500px;
+    width:480px;
+    float:left;
+    margin-bottom: 48px;
+}
+
+video{
+    width:100%;
+    height:auto;
+}
+
+h3.present{
+    font-size:20px;
+    margin:10px 0px 62px;
+}
+
+h3{
+    color:gray;
+}
+
+h3.zonetxt{
+    margin-top:10px;
+}
+
+h4{
+    color:darkgray;
+    margin:20px 0px;
+}
+
+article.txt{
+    height:250px;
+    margin-right:10px;
+}
+
+img.position{
+    float:right;
+}
+
+footer.description{
+    background: gray;
+    color:white;
+    width:480px;
+    height:137px;
+    padding:10px;
+    margin-top:8px;
+}
+/*-----------------------FIN SECTION GAUCHE ET DROITE -----------------*/   
+    
+    
+    
+    
+    
+    
+    
+/*--------------------------DEBUT ZONE 4 RONDS JAUNES -----------------*/    
+section.rond{
+    width:960px;
+    height:210px;
+}
+
+div.ovale{
+    background-color: yellow;
+    width:210px;
+    height:210px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 40px;
+}
+
+div.ovale:last-child{
+    margin-right:-40px;
+}
+
+img.picto{
+    position:relative;
+    top:80px;
+    left:90px;
+}   
+/*--------------------------FIN ZONE 4 RONDS JAUNES -----------------*/      
+    
+    
+    
+    
+/*-------------------------DEBUT ZONE 4 CARRE -----------------------*/  
+section.carre{
+    height:230px;
+    width:960px;
+    margin-top: 10px;
+    float:left;
+}
+
+p.texte{
+    width:210px;
+    height:230px;
+    background:beige;
+    margin-right: 40px;
+    float:left;
+    padding:10px;
+}
+
+
+p.texte:last-child{
+    margin-right: -40px;
+}
+/*--------------------------FIN ZONE 4 CARRE -----------------------*/  
+    
+    
+    
+    
+    
+    
+    
+/*-----------------------DEBUT CARRES ORANGES -----------------------*/     
+footer{
+    background:black;
+    height:auto;
+    width:100%;
+    float:left;
+    color:white;
+}
+
+div.global{
+    margin:auto;
+    height:400px;
+    width:960px;
+}
+
+div.footer{
+    width:300px;
+    height:400px;
+    margin:10px 30px 10px 0px;
+    background: orange;
+    float:left;
+    padding:10px;
+}
+
+div.footer:last-child{
+    margin-right:-30px;
+}
+/*---------------------------DEBUT CARRES ORANGES -----------------------*/  
+    
+    
+    }
+/*------ FIN VERSION ORDI --------------------*/
+
+
+
+/*------DEBUT VERSION TABLETTE XL  -----------*/
+@media screen and (min-width:768px) and (max-width :959px){
+    
+    
+/*-----------------------------DEBUT HEADER----------------------------------------------------*/
+    
+/*-------------------DEBUT LOGO--------------------------------------------*/
+.fa{
+    visibility: hidden;
+}
+
+hr{
+    margin-top:-4px;
+}
+
+header{
+    width:100%;
+    background: url(../images/texture_nav.gif) repeat-x;
+    height:49px;
+}
+
+h3.logo{
+    line-height:49px;
+    float:left;
+    margin-right:20%;
+}
+
+
+div.head{
+    width:768px;
+    height:49px;
+    margin: auto;
+    padding-left: 50px;
+}    
+/*-------------------FIN LOGO--------------------------------------------*/
+
+    
+    
+/*-------------------DEBUT NAVIGATION------------------------------------*/   
+nav{
+    width:240px;
+    height:49px;
+    margin:auto;
+}
+
+nav ul li {
+    text-align: center;
+    list-style: none;
+    display: block;
+    float:left;
+    width:60px;
+    height:49px;
+    line-height: 49px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:gray;
+}
+/*-------------------FIN NAVIGATION------------------------------------*/ 
+/*-----------------------------DEBUT HEADER----------------------------------------------------*/
+    
+    
+    
+    
+    
+/*-----------------------------DEBUT SLIDER-----------------------------------------------------*/
+div.slider{
+    height:250px;
+    background: url(../images/equipebon.jpg) 0 0 no-repeat;
+    background-size: cover;
+    min-width:100%;
+    max-width:100%;
+}
+    
+div.sslider{
+    width:100%;
+    height:100px;
+    background: url(../images/vert.gif) repeat-x;
+}
+
+  
+h1, h2{
+    text-align: center;
+    color:white;
+}
+/*-----------------------------FIN SLIDER-----------------------------------------------------*/    
+    
+    
+    
+    
+    
+    
+/*-----------------------------DEBUT MAIN-----------------------------------------------------*/      
+main{
+    width:768px;
+    margin:auto;
+}
+
+    
+/*----------------------DEBUT SECTION GAUCHE ET DROITE -----------------*/
+section.gauche{
+    height:500px;
+    width:384px;
+    float:left;
+    margin-bottom: 48px;
+}
+
+video{
+    width:100%;
+    height:auto;
+}
+
+h3.present{
+    font-size:20px;
+    margin:10px 0px 62px;
+}
+
+h3{
+    color:gray;
+}
+
+h3.zonetxt{
+    margin-top:10px;
+}
+
+h4{
+    color:darkgray;
+    margin:20px 0px;
+}
+
+article.txt{
+    height:250px;
+    margin-right:10px;
+}
+
+img.position{
+    float:right;
+}
+
+footer.description{
+    background: gray;
+    color:white;
+    width:384px;
+    height:137px;
+    padding:10px;
+    margin-top:8px;
+}
+/*-----------------------FIN SECTION GAUCHE ET DROITE -----------------*/   
+    
+    
+    
+    
+    
+    
+    
+/*--------------------------DEBUT ZONE 4 RONDS JAUNES -----------------*/    
+section.rond{
+    width:960px;
+    height:210px;
+    padding-left: 124px;
+}
+
+div.ovale{
+    background-color: yellow;
+    width:210px;
+    height:210px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+img.picto{
+    position:relative;
+    top:80px;
+    left:90px;
+}   
+/*--------------------------FIN ZONE 4 RONDS JAUNES -----------------*/      
+    
+    
+    
+    
+/*-------------------------DEBUT ZONE 4 CARRE -----------------------*/  
+section.carre{
+    height:230px;
+    width:768px;
+    margin-top: 10px;
+   
+}
+
+p.texte{
+    
+    height:230px;
+    background:beige;
+    margin-right: 40px;
+    float:left;
+    padding:10px;
+    margin-bottom: 20px;
+}
+
+
+
+/*--------------------------FIN ZONE 4 CARRE -----------------------*/  
+    
+    
+    
+    
+    
+    
+    
+/*-----------------------DEBUT CARRES ORANGES -----------------------*/     
+footer{
+    background:black;
+    height:auto;
+    width:100%;
+    float:left;
+    color:white;
+}
+
+div.global{
+    margin:auto;
+    height:400px;
+    width:768px;
+    padding-left:84px;
+}
+
+div.footer{
+    width:300px;
+    height:400px;
+    margin:10px 10px 10px 0px;
+    background: orange;
+    float:left;
+    padding:10px;
+}
+
+div.footer:last-child{
+    margin-right: 10px;
+    width: 610px;
+    background:red;
+}
+/*---------------------------DEBUT CARRES ORANGES -----------------------*/  
+       
+    
+}
+/*------ FIN VERSION TABLETTE XL --------------*/
+
+
+
+/*------DEBUT VERSION TABLETTE XS  ----------*/
+@media screen and (min-width: 481px) and (max-width:767px){
+    hr{
+        width:20px;
+        margin:5px auto 0;
+        border:1px solid;
+    }
+    
+    /*------DEBUT BURGER---------------------------------------------------------*/
+    #burger{
+        float:right;
+        line-height: 30px;
+        background: transparent;
+        border: 1px solid;
+        width:30px;
+        height: 30px;
+        text-align: center;
+        margin-top:9px;
+        transition: 500ms;
+        border-radius:10px;   
+    }
+    
+    #burger:hover{
+        border-radius:0px;
+        border:1px solid orangered;
+    }
+    
+    .burger:hover{
+        color: orangered;
+        transition: 500ms;
+    }
+    
+    .burger.is-active hr{
+        border: 1px solid red;
+        transition: 500ms;
+    }
+    
+    .navigation{
+        display: none;
+        border-radius:10px;
+        padding:20px;
+    }
+    
+    
+    .navigation.is-active{
+        display: block;
+    }
+    .navigation{
+        animation: yann 500ms linear 1 forwards;
+        background: rgba(0, 0, 0, 0.9);
+    }
+    
+    @keyframes yann{
+        0%{
+            position: absolute;
+            left: -50%;
+            top: 50px;
+        }
+        
+        100% {
+            position: absolute;
+            left: 0;
+            top: 49px;
+        }
+    }
+    
+
+/*------FIN BURGER------------------------------------------------------------------*/
+    
+    
+/*-------------------DEBUT LOGO--------------------------------------------*/
+
+
+header{
+    width:100%;
+    background: url(../images/texture_nav.gif) repeat-x;
+    height:49px;
+}
+
+h3.logo{
+    line-height:49px;
+    float:left;
+  
+}
+
+
+div.head{
+    width:481px;
+    height:49px;
+    margin: auto;
+    padding-left: 50px;
+}    
+/*-------------------FIN LOGO--------------------------------------------*/
+
+    
+    
+/*-------------------DEBUT NAVIGATION------------------------------------*/   
+nav{
+    margin:auto;
+}
+
+nav ul li {
+    text-align: center;
+    list-style: none;
+    display: block;
+    float:left;
+    width:60px;
+    height:49px;
+    line-height: 49px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:gray;
+}
+/*-------------------FIN NAVIGATION------------------------------------*/ 
+/*-----------------------------DEBUT HEADER----------------------------------------------------*/
+    
+    
+    
+    
+    
+/*-----------------------------DEBUT SLIDER-----------------------------------------------------*/
+div.slider{
+    height:150px;
+    background: url(../images/equipebon.jpg) 0 0 no-repeat;
+    background-size: cover;
+    min-width:100%;
+    max-width:100%;
+}
+    
+div.sslider{
+    width:100%;
+    height:100px;
+    background: url(../images/vert.gif) repeat-x;
+}
+
+  
+h1, h2{
+    text-align: center;
+    color:white;
+}
+/*-----------------------------FIN SLIDER-----------------------------------------------------*/    
+    
+    
+    
+    
+    
+    
+/*-----------------------------DEBUT MAIN-----------------------------------------------------*/      
+main{
+    width:481px;
+    margin:auto;
+}
+
+    
+/*----------------------DEBUT SECTION GAUCHE ET DROITE -----------------*/
+section.gauche{
+    height:auto;
+    width:481px;
+    float:left;
+    margin-bottom: 48px;
+}
+
+video{
+    width:100%;
+    height:auto;
+}
+
+h3.present{
+  text-align: center;
+    font-size: 20px;
+    margin:10px 0px;}
+
+h3{
+    color:gray;
+}
+
+h3.zonetxt{
+    text-align: center;
+    margin-top:10px;
+}
+
+h4{
+    color:darkgray;
+    margin:20px 0px;
+}
+
+article.txt{
+    height: auto;
+    padding-left: 10px;
+    margin-right:10px;
+}
+
+img.position{
+    float:right;
+}
+
+footer.description{
+    background: gray;
+    color:white;
+    width:481px;
+    height:137px;
+    padding:10px;
+    margin-top:8px;
+}
+/*-----------------------FIN SECTION GAUCHE ET DROITE -----------------*/   
+    
+    
+    
+    
+    
+    
+    
+/*--------------------------DEBUT ZONE 4 RONDS JAUNES -----------------*/    
+section.rond{
+    margin: auto;
+    width:481px;
+    height:210px;
+}
+
+div.ovale{
+    background-color: yellow;
+    width:235.5px;
+    height:235.5px;
+    float: left;
+    margin:2.5px 5px 2.5px 0px;
+}
+
+div.ovale:nth-child(even){
+    background: gray;
+    margin-right: -10px;
+}
+
+
+img.picto{
+    position:relative;
+    top:80px;
+    left:45%;
+}   
+/*--------------------------FIN ZONE 4 RONDS JAUNES -----------------*/      
+    
+    
+    
+    
+/*-------------------------DEBUT ZONE 4 CARRE -----------------------*/  
+section.carre{
+    height:230px;
+    width:481px;
+    margin-top: 10px;
+   
+}
+
+p.texte{
+    
+    height:auto;
+    background:beige;
+    float:left;
+    padding:10px;
+    margin-bottom: 20px;
+}
+
+p.texte:first-child {
+    margin-top: 10px;
+}
+
+
+
+/*--------------------------FIN ZONE 4 CARRE -----------------------*/  
+    
+    
+    
+    
+    
+    
+    
+/*-----------------------DEBUT CARRES ORANGES -----------------------*/     
+footer{
+    background:black;
+    height:auto;
+    width:100%;
+    float:left;
+    color:white;
+}
+
+div.global{
+    margin:auto;
+    height:auto;
+    width:481px;  
+}
+
+
+div.footer{
+    width:481px;
+    height:400px;
+    margin:10px 0px;
+    background: orange;
+    padding:10px;
+}
+
+div.footer:last-child{
+    background:red;
+} 
+    
+}
+/*------FIN VERSION TABLETTE XS  -------------*/
+
+
+
+/*-----DEBUT VERSION SMARTPHONE--------*/
+@media screen and (max-width:480px){
+    hr{
+        width: :20px;
+        margin:5px auto 0;
+        border:1px solid white;
+    }
+    
+    #burger{
+        float:right;
+        line-height: 30px;
+        background: transparent;
+        border:1px solid;
+        width:30px;
+        height:30px;
+        text-align: center;
+        margin-top:9px;
+        margin-right: 4px;
+        transition: 500ms;
+        border-radius:10px;
+    }
+    
+    .burger.is-active hr{
+        border : 1px solid red;
+        transition:500ms;
+    }
+
+    .navigation{
+        display:none;
+    }
+    
+    .navigation.is-active{
+        display: block;
+    }
+    
+    .navigation{
+        animation: yann 200ms li,ear 1 forwards;
+        background: rgba(0, 0, 0, 0.9);
+    }
+    
+    @keyframes yann{
+        0%{
+            position: absolute;
+            z-index:-1;
+            margin-left:10%;
+            top:-50px;
+        }
+        
+        99%{
+            z-index:-1;
+            margin-left: 10%;
+            position: absolute;
+            top:48px;
+        }
+        
+        100%{
+            margin-left: 10%;
+            position: absolute;
+            top:49px;
+        }
+    }
+    
+    header{
+        max-width: 480px;
+        background: url(../images/texture_nav.gif) repeat-x black;
+        height:98px;
+    }
+    
+    h3.logo{
+        line-height:49px;
+        margin-left:38%;
+    }
+    
+    div.head{
+        width:100%;
+        height:49px;
+        margin:auto;
+        padding-left:50px;
+    }
+    
+    nav{
+        margin:auto;
+    }
+    
+    
+    nav ul li{
+        text-align: center;
+        list-style: none;
+        display: block;
+        float: left;
+        width:60px;
+        height: 49px;
+        line-height: 49px;
+        
+    }
+    
+    
+    nav ul li a {
+        text-decoration: none;
+        color: gray;
+    }
+    
+    
+    div.slider{
+        height:100px;
+        background: url(../images/equipe320.jpg) 0 0 no-repeat;
+        background-size:cover;
+        min-width: 100%;
+        max-width:100%;
+    }
+    
+    
+    div.sslider{
+        width:100%;
+        height:100px;
+        background: url(../images/vert.gif) repeat-x;
+    }
+    
+    h1, h2 {
+        text-align: center;
+        color:white;
+    }
+    
+    main{
+        width:100%;
+        margin: auto;
+    }
+    
+    section.gauche{
+        height: auto;
+        width:100%;
+        float:left;
+    }
+    
+    
+    video{
+        width:100%;
+        height:auto;
+    }
+    
+    h3.present{
+        text-align: center;
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+    
+    h3.zonetxt{
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    h4{
+        color:darkgray;
+        margin: 20px 0px;
+    }
+    
+    article.txt{
+        height: auto;
+        padding-left: 10px;
+        margin-right: 10px;
+    }
+    
+    img.position{
+        float: right;
+    }
+    
+    footer.description{
+        background: gray;
+        color:white;
+        width:100%;
+        height:137px;
+        padding:10px;
+        margin-top: 8px;
+    }
+    
+    
+    section.rond{
+        margin: auto;
+        width:100%;
+        height:210px;
+    }
+    
+    div.ovale{
+        background:yellow;
+        width:100%;
+        height:180px;
+        float:left;
+        margin:5px 0;
+    }
+    
+    div.ovale:nth-child(even){
+        background: gray;
+    }
+    
+    img.picto{
+        position: relative;
+        top:60px;
+        left:45%;
+    }
+    
+    section.carre{
+        height: 230px;
+        width:100%;
+        margin-top: 10px;
+    }
+    
+    p.texte{
+        height: auto;
+        background: beige;
+        float:left;
+        padding:10px;
+        margin-bottom: 20px;
+    }
+    
+    footer{
+        background: black;
+        height: auto;
+        width:100%;
+        float:left;
+        color:white;
+    }
+    
+    div.global{
+        margin:auto;
+        height: auto;
+        width:100%;
+    }
+    
+    div.footer{
+        width:100%;
+        height:400px;
+        margin:10px 0;
+        background: orange;
+        padding:10px;
+    }
+    
+    div.footer:last-child{
+        background: red;
+    }
+    
+}
+/*-----FIN VERSION SMARTPHONE----------*/

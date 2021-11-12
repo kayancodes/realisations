@@ -1,0 +1,777 @@
+
+
+/* Dans ce fichier CSS les elements sont classés selon leur ordre d'aparition dans le fichier HTML.
+Vous trouverez donc d'abord les proprietes relatives aux elements contenus dans la balise DIV CLASS "wrapper",dans l'ordre, puis celles de la balise "aside" en dernier */
+
+
+
+
+
+/*-----------DEBUT UNI-------------------------*/
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+html{
+    background-color: #daede2;
+    padding:5%;
+}
+
+
+
+
+body{
+   font-size: 110%;
+    font-family: "tablet-gothic", verdana, arial, sans-serif;
+    background-color: #77c4d3;
+}
+/*-----------FIN UNI--------------------------*/
+
+
+
+
+
+
+
+@media screen and (min-width:550px){
+
+
+/*---------DEBUT DIV CLASS WRAPPER----------------------------------------------------------------------------------------------------*/
+
+.wrapper{
+    position: relative;
+    z-index: 20; 
+}
+
+   
+
+h1{
+    color:white;
+    background-color:#ea2e49;
+    display: inline-block;
+    
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+    
+    font-size: 1.4em;
+    font-weight: 300;
+    letter-spacing: 1px;  
+}
+
+
+h2{
+    color:white;
+    
+    font-weight: 900;
+    font-size: 5em;
+    letter-spacing: 1px;
+    line-height: 1em;
+}
+
+
+
+
+
+
+/*--------------------------DEBUT DIV BOX 1------------------------------------------------*/
+
+.box1{
+    padding:5%;
+    width: 66.5%;
+    /* border: 1px solid black;*/
+}
+
+
+
+/*-------DEBUT CLASS INTRO-----------------------------*/
+.intro{
+    margin:11% 0;  
+}
+
+.intro p{
+    color:white;
+    
+    margin:0;
+    padding: 0.5em 0;
+    font-weight: 300;
+    
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+}
+
+ span{
+        text-decoration: underline dotted;
+    }
+
+    
+.intro p:nth-child(2){
+    border-top:1px solid red;
+    margin-top: 5%;
+    padding-top:6%;
+}
+/*-------FIN CLASS INTRO-----------------------------*/
+
+
+
+
+
+
+
+/*---------DEBUT CLASS ROAD---------------------------*/
+.road{
+    right:19%;
+    width:120%;
+    position: relative;
+    background-color: rgba(255,255,255,0.9);
+    
+    margin-right: 0%;
+    padding: 5% 5% 5% 18%;
+    
+    color: #333;
+   
+}
+.road h3{
+    padding: 0.5em 0 0.25em 0;
+    
+    font-size: 1.5em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1em;
+    
+}
+.road p{
+    padding: 0.5em 0;
+    
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 1.5em;
+   
+}
+/*--------FIN CLASS ROAD---------------------------*/
+
+
+
+/*--------------------------FIN BOX 1-----------------------------------------------------*/
+
+
+
+
+
+
+
+
+/*--------------------------DEBUT BOX 2---------------------------------------------------*/
+
+.box2{
+    position: relative;
+    padding: 5%;
+   /*border: 1px solid red;*/
+}
+
+
+
+/*------DEBUT CLASS SOWHAT-------------------------*/
+
+.sowhat{
+    width:50%;
+    float:left;
+    
+    padding: 5%; 
+    color:white;
+}
+
+
+.sowhat h3{
+    padding: 0.5em 0 0.25em 0;
+    
+    font-size: 1.8em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1em;
+}
+
+
+.sowhat p{
+    padding: 0.5em 0;
+    
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+/*-------FIN CLASS SOWHAT--------------------------*/
+
+
+
+
+
+
+
+
+/*-------DEBUT CLASS PARTI-------------------------*/
+.parti{
+    width:50%;
+    float:left;
+    background-color: rgba(234,46,73,0.9);
+    
+    padding: 5%;
+    
+    color:white;
+}
+
+
+.parti h3{
+    padding: 0.5em 0 0.25em 0;
+    
+    font-size: 1.8em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1em;
+   
+    
+}
+
+
+.parti p{
+    padding: 0.5em 0;   
+    
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    
+}
+/*---------FIN CLASS PARTI-------------------------*/
+
+
+
+
+
+
+
+/*----------DEBUT CLASS BENE-----------------------*/
+.bene{
+    width:30%;
+    float:left;
+    background-color:rgba(255,255,255,0.9);
+    
+    padding: 5%;
+    margin-top: 12%;
+}
+
+
+.bene h3{
+    padding: 0.5em 0 0.25em 0;
+    
+    font-size: 1.7em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1em;
+    
+}
+
+
+.bene p{
+    padding: 0.5em 0;
+    
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    
+}
+/*----------FIN CLASS BENE---------------------------*/
+
+
+
+
+
+
+/*----------DEBUT CLASS REQUI------------------------*/
+.requi{
+    width:70%;
+    float:left;
+    padding: 5%;
+    /*border: 1px solid green;*/
+    
+    background-color:rgba(255,255,255,0.9);
+    
+
+}
+
+.requi h3{
+    padding: 0.5em 0 0.25em 0;
+    
+    font-size: 1.8em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1em;
+    
+}
+
+.requi p{
+    padding: 0.5em 0;
+    
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    
+}
+
+
+.requi p:nth-child(6){
+    border-top:1px solid #ea2e49;
+    margin-top: 1em;
+    padding-top: 1.5em;
+}
+/*-------FIN CLASS REQUI------------------------------*/
+
+
+
+
+
+
+/*-------DEBUT CLASS FOOTER---------------------------*/
+.footer{
+    width: 50%;
+    display: inline-block;
+    background: rgba(246,247,146,0.9);
+    
+    padding:1em 5%;
+}
+/*--------FIN CLASS FOOTER----------------------------*/
+
+/*--------------------------FIN BOX 2---------------------------------------------------------*/
+
+
+
+
+
+
+/*---------DEBUT CLASS DESIGN-------------------------*/
+.design{
+    width:32.75%;
+    top:2.5%;
+    right:0;
+    position: absolute;
+    background-color: rgba(246,247,146,0.9);
+   
+    padding:5%; 
+}
+
+ul{
+    margin-bottom: 10%;
+}
+
+li{
+    padding: 0.5em 0;
+    font-size: .9em;
+    font-weight: 100;
+    line-height: 1em;
+   
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0.825em 0;
+}
+
+
+h3{
+    padding: 0.5em 0 0.25em 0;
+    
+    font-size: 1.5em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1em; 
+}
+
+.design h3:nth-child(1){margin-bottom: 20px;}
+
+/*---------FIN CLASS DESIGN--------------------------*/
+
+
+/*---------FIN DIV CLASS WRAPPER----------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+/*--------DEBUT CLASS NOIR----------------------------------------------------------------------------------------------------------*/
+.noir{
+    width:30%;
+    top:0;
+    bottom:0;
+    height:auto;
+    position: fixed;
+    right: 0;
+    z-index: 10;
+    background-color: rgba(51,55,69,0.9);
+    
+   
+}
+/*---------FIN CLASS NOIR-----------------------------------------------------------------------------------------------------------*/
+
+}
+
+
+
+
+
+@media screen and (max-width:549px){
+    /*---------DEBUT DIV CLASS WRAPPER----------------------------------------------------------------------------------------------------*/
+
+.wrapper{
+    position: relative;
+    z-index: 20; 
+}
+
+
+
+
+h1{
+    color:white;
+    background-color:#ea2e49;
+    display: inline-block;
+    
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+    
+    font-size: 1.4em;
+    font-weight: 300;
+    letter-spacing: 1px;  
+}
+
+
+h2{
+    color:white;
+    
+    font-weight: 900;
+    font-size: 3em;
+    letter-spacing: 1px;
+    line-height: 1em;
+}
+
+
+
+
+
+
+/*--------------------------DEBUT DIV BOX 1------------------------------------------------*/
+
+.box1{
+    padding:5%;
+    width: 100%;
+    /* border: 1px solid black;*/
+}
+
+
+
+/*-------DEBUT CLASS INTRO-----------------------------*/
+.intro{
+    margin:11% 0;  
+}
+
+.intro p{
+    color:white;
+    
+    margin:0;
+    padding: 0.5em 0;
+    font-weight: 300;
+    
+    font-size: .8em;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+}
+
+ span{
+        text-decoration: underline dotted;
+    }
+
+.intro p:nth-child(2){
+    border-top:1px solid red;
+    margin-top: 5%;
+    padding-top:6%;
+}
+/*-------FIN CLASS INTRO-----------------------------*/
+
+
+
+
+
+
+
+/*---------DEBUT CLASS ROAD---------------------------*/
+.road{
+    right:19%;
+    width:120%;
+    position: relative;
+    background-color: rgba(255,255,255,0.9);
+    
+    margin-right: 0%;
+    padding: 5% 5% 5% 18%;
+    
+    color: #333;
+   
+}
+.road h3{
+    padding: 0.5em 0 0.25em 0;
+    
+    font-size: 1.5em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1em;
+    
+}
+.road p{
+    padding: 0.5em 0;
+    
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 1.5em;
+   
+}
+/*--------FIN CLASS ROAD---------------------------*/
+
+
+
+/*--------------------------FIN BOX 1-----------------------------------------------------*/
+
+
+
+
+
+
+
+
+/*--------------------------DEBUT BOX 2---------------------------------------------------*/
+
+.box2{
+    position: relative;
+    padding: 5%;
+   /*border: 1px solid red;*/
+}
+
+
+
+/*------DEBUT CLASS SOWHAT-------------------------*/
+
+.sowhat{
+    width:100%;
+
+    padding: 5%; 
+    color:white;
+}
+
+
+.sowhat h3{
+    padding: 0.5em 0 0.25em 0;
+    
+    font-size: 1.8em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1em;
+}
+
+
+.sowhat p{
+    padding: 0.5em 0;
+    
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+/*-------FIN CLASS SOWHAT--------------------------*/
+
+
+
+
+
+
+
+
+/*-------DEBUT CLASS PARTI-------------------------*/
+.parti{
+    width:100%;
+    background-color: rgba(234,46,73,0.9);
+    
+    padding: 5%;
+    
+    color:white;
+}
+
+
+.parti h3{
+    padding: 0.5em 0 0.25em 0;
+    
+    font-size: 1.8em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1em;
+
+}
+
+
+.parti p{
+    padding: 0.5em 0;   
+    
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    
+}
+/*---------FIN CLASS PARTI-------------------------*/
+
+
+
+
+
+
+
+/*----------DEBUT CLASS BENE-----------------------*/
+.bene{
+    width:100%;
+    background-color:rgba(255,255,255,0.9);
+    
+    padding: 5%;
+    margin-top: 12%;
+    margin-bottom: 15%;
+}
+
+
+.bene h3{
+    padding: 0.5em 0 0.25em 0;
+    
+    font-size: 1.7em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1em;
+    
+}
+
+
+.bene p{
+    padding: 0.5em 0;
+    
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    
+}
+/*----------FIN CLASS BENE---------------------------*/
+
+
+
+
+
+
+/*----------DEBUT CLASS REQUI------------------------*/
+.requi{
+    width:100%;
+    padding: 5%;
+    /*border: 1px solid green;*/
+    
+    background-color:rgba(255,255,255,0.9);
+    
+
+}
+
+.requi h3{
+    padding: 0.5em 0 0.25em 0;
+    
+    font-size: 1.8em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1em;
+    
+}
+
+.requi p{
+    padding: 0.5em 0;
+    
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    
+}
+
+
+.requi p:nth-child(6){
+    border-top:1px solid #ea2e49;
+    margin-top: 1em;
+    padding-top: 1.5em;
+}
+/*-------FIN CLASS REQUI------------------------------*/
+
+
+
+
+
+
+/*-------DEBUT CLASS FOOTER---------------------------*/
+.footer{
+    width: 50%;
+    display: inline-block;
+    background: rgba(246,247,146,0.9);
+    
+    padding:1em 5%;
+}
+/*--------FIN CLASS FOOTER----------------------------*/
+
+/*--------------------------FIN BOX 2---------------------------------------------------------*/
+
+
+
+
+
+
+/*---------DEBUT CLASS DESIGN-------------------------*/
+.design{
+    width:100%;
+    top:2.5%;
+    right:0;
+
+    background-color: rgba(246,247,146,0.9);
+   
+    padding:5%; 
+}
+
+ul{
+    margin-bottom: 10%;
+}
+
+li{
+    padding: 0.5em 0;
+    font-size: .9em;
+    font-weight: 100;
+    line-height: 1em;
+   
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0.825em 0;
+}
+
+
+h3{
+    padding: 0.5em 0 0.25em 0;
+    
+    font-size: 1.5em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1em; 
+}
+
+.design h3:nth-child(1){margin-bottom: 20px;}
+
+/*---------FIN CLASS DESIGN--------------------------*/
+
+
+/*---------FIN DIV CLASS WRAPPER----------------------------------------------------------------------------------------------------*/
+
+}
+
+
+
+

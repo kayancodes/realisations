@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Counter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- pour pouvoir utiliser les media query  -->
+    <style> 
+      /* DEBUT PARTIE CSS */
+      *{
+        outline: 0;
+        margin :0;
+        padding: 0;
+      }
+          .inner{
+            padding: 0 5%;
+            margin-top: 30vh;
+            /* background-color: green; */
+          }
+          
+          .box_app{
+            border: 1px solid lightgray;
+            width:15rem;
+            height:2.6rem;
+            display: block;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+          }
+
+        
+          #count{
+            /* background-color:red; */
+            width:8rem;
+            height:2.3rem;
+            font-size: 1.5rem;
+            border:none;
+          }
+
+          .text{
+            text-align: center;
+            /* color:red; */
+           
+          }
+
+          #plus, #moins{
+            /* background-color:pink; */
+            width:5rem;
+            height:2.6rem;
+            color:gray;
+            background-color:white;
+            font-size: 1.5rem;
+            border:none; 
+            cursor:pointer;
+          }
+
+          .sign{
+           font-size: 10px;
+          }
+
+    @media screen and (min-width:768px) and (max-width:1023px){
+      .box_app{
+            width:18rem;
+            height:3rem;
+          }
+
+           
+    }
+
+    @media screen and (min-width:1024px){
+      .box_app{
+            width:22rem;
+            height:5rem;
+          }
+    }
+    /* FIN PARTIE CSS */
+    </style>
+  </head>
+
+
+
+
+
+  <body>
+<!-- DEBUT PARTIE HTML -->
+<div class="inner">
+  <div class="box_app">
+    <input type="button" value="-" id="moins" onclick="minus()" class="sign">
+    <input type="text" size="5" value="0" id="count" class="text">
+    <input type="button" value="+" id="plus" onclick="plus()" class="sign">
+</div>
+</div>
+<!-- FIN PARTIE HTML -->
+
+<script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
